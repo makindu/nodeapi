@@ -25,5 +25,5 @@ DBConnection.connection.sync().then(() => {
 });
 
 server.listen(process.env.PORT || 3000, () => {
-  console.log("server running on port 3000");
+  console.log("server running on port 10000");
 });
